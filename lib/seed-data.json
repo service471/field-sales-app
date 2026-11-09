@@ -1,0 +1,58 @@
+[
+  {
+    "customer_name": "Karen BRASIER",
+    "job_title": "Design Director",
+    "company_name": "Brickmoon Design",
+    "sector": "Architect",
+    "address": "1350 Ranch Rd 12 Ste 111, Wimberly TX 78676",
+    "phone": "1 (281) 501 2712",
+    "alt_phone": "1 (512) 829 7187",
+    "company_email": null,
+    "alt_email": null,
+    "website": null,
+    "status": "pending",
+    "notes": ""
+  },
+  {
+    "customer_name": "Andreas Block",
+    "job_title": "Owner",
+    "company_name": "The Carpentry Company",
+    "sector": "General Contractor",
+    "address": "13359 N Hwy 183, 406 PMB 152, Austin, TX 78750",
+    "phone": "1 (512) 230 1492",
+    "alt_phone": null,
+    "company_email": null,
+    "alt_email": null,
+    "website": "https://thecarpentry.company/contact/",
+    "status": "pending",
+    "notes": "Website: https://thecarpentry.company/contact/"
+  },
+  {
+    "customer_name": "Jeff Jack",
+    "job_title": "Owner",
+    "company_name": "Jeff Jack Architect",
+    "sector": "Architect",
+    "address": "2008 Rabb Glen St Unit B, Austin TX 78704",
+    "phone": "1 (512) 970 0884",
+    "alt_phone": "1 (512) 970 0884",
+    "company_email": "2jeffjack@gmail.com",
+    "alt_email": null,
+    "website": null,
+    "status": "pending",
+    "notes": "Email: 2jeffjack@gmail.com"
+  },
+  {
+    "customer_name": "Uri Suvalsky",
+    "job_title": "Project Manager",
+    "company_name": "Madhouse Development",
+    "sector": "Construction Company",
+    "address": "3933 Steck Ave, Suite B120, Austin 78759",
+    "phone": "1 (512) 982 1342",
+    "alt_phone": "1 (512) 982 1342",
+    "company_email": "contact@madhousedevelopment.net",
+    "alt_email": null,
+    "website": null,
+    "status": "pending",
+    "notes": "Email: contact@madhousedevelopment.net"
+  }
+]

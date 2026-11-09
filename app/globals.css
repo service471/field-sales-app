@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  --color-paper: #f3efe6;
+  --color-card: #fffdf8;
+  --color-ink: #1c1915;
+  --color-muted: #6f675e;
+  --color-line: #e4d9c8;
+  --color-pine: #1f6b4a;
+  --color-clay: #b85c38;
+  --color-clay-soft: #f8ebe3;
+  --color-stamp: #efe6d6;
+  --animate-card-in: card-in 320ms ease-out;
+  --animate-shake: shake 420ms ease-in-out;
+}
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  body {
+    min-height: 100%;
+    background-color: var(--color-paper);
+    background-image:
+      radial-gradient(circle at 12% 0%, rgba(184, 92, 56, 0.09), transparent 28%),
+      radial-gradient(circle at 100% 8%, rgba(31, 107, 74, 0.1), transparent 26%);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+
+  button,
+  a,
+  input,
+  textarea {
+    touch-action: manipulation;
+  }
+}
+
+@keyframes card-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-8px);
+  }
+  75% {
+    transform: translateX(8px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-card-in,
+  .animate-shake {
+    animation: none;
+  }
+}
